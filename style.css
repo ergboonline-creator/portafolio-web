@@ -292,7 +292,15 @@ h2 {
     color: #555;
     font-size: 14px;
 }
-
+.redes i{
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.redes i:hover{
+    color: #00adb5;
+}
 
 /* ===== FOOTER ===== */
 footer {
