@@ -109,14 +109,16 @@ h2 {
 .card {
     width: 280px;
     padding: 20px;
+    background: white;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.3s;
 }
 @media (max-width: 768px) {
     .cards-container {
@@ -128,7 +130,7 @@ h2 {
     }
 }
 .card:hover {
-    transform: translatey(-8px) scale(1.05);
+    transform: translatey(-5px) scale(1.05);
     box-shadow: 0px 15px 30px rgba(0,0,0,0.12);
 }
 /* ===== PROYECTOS ===== */
@@ -158,6 +160,11 @@ h2 {
 }
 .card .btn:hover{
     background: #008b91;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: 10px;
 }
 
 /* ===== HABILIDADES ===== */
